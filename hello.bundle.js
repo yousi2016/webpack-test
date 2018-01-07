@@ -70,13 +70,18 @@
 /*
 * @Author: Administrator
 * @Date:   2018-01-04 12:02:00
-* @Last Modified by:   Administrator
-* @Last Modified time: 2018-01-06 17:15:52
+* @Last Modified by:   yousi2016
+* @Last Modified time: 2018-01-07 18:16:16
 */
 __webpack_require__(1);
 
 function hello (str) {
     alert(str);
+};
+function callback (){
+    return function(){
+        
+    }
 };
 
 /***/ }),
